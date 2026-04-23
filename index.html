@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+      padding: 48px 40px;
+      max-width: 480px;
+      width: 90%;
+      text-align: center;
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: #ddd;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+    }
+    h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+    .bio { color: #666; font-size: 15px; line-height: 1.6; margin-bottom: 24px; }
+    .links a {
+      color: #0969da;
+      text-decoration: none;
+      font-size: 14px;
+      margin: 0 8px;
+    }
+    .links a:hover { text-decoration: underline; }
+    .github-link {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 10px 20px;
+      background: #24292f;
+      color: #fff !important;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .github-link:hover { opacity: 0.9; text-decoration: none !important; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👤</div>
+    <h1>（你的名字）</h1>
+    <p class="bio">（自我介紹文字，修改 about-me/index.html 的內容即可）</p>
+    <div class="links">
+      <a href="#">GitHub</a>
+      <a href="#">Twitter</a>
+      <a href="#">Email</a>
+    </div>
+    <a class="github-link" href="https://github.com/vclawbot-ship-it">View on GitHub →</a>
+  </div>
+</body>
+</html>
